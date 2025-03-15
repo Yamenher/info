@@ -1,0 +1,292 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yamen Hermassi - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/beercss@3.9.7/dist/cdn/beer.min.css" rel="stylesheet">
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.9.7/dist/cdn/beer.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body class = "dark">
+
+<header class ="navbar">
+  <nav>
+<img src="https://github.com/yamenher.png" id="small-pic" alt="Yamen Hermassi" class="profile-picture-small">
+  <h5 class="max">About me</h5>
+    <button id="menu" class="circle ripple transparent">
+      <i>more_vert</i>
+    </button>
+  </nav>
+</header>
+
+<div class="page active" id="placeholder">
+<div class="centered-layout">
+<progress class="circle"></progress>
+</div>
+</div>
+
+<div class="page" id="main-content">
+  <div class="container">
+    <img src="https://github.com/yamenher.png" alt="Yamen Hermassi" class="profile-picture">
+
+    <div class="card">
+      <div class="card-body">
+        <h3 class="wavy">Who am I?</h3>
+        <p>
+          I'm a 17 yo Android developer passionate about creating elegant and efficient mobile applications.
+          My focus is on UI/UX design, utility app development, and experimenting with Node.js hosting.
+        </p>
+        <p>I specialize in Java and Material Design, always striving to build apps that offer a seamless experience.</p>
+      </div>
+    </div>
+    
+    <h4>Projects</h4>
+    
+<article class="round">
+    <div class="projects">
+      <div class="card">
+        <div class="card-body">
+          <h5 style="margin-left: 12px">X-Signer</h5>
+          <p style="margin-left: 8px">APK/AAB signing tool with v1, v2, v3, v4 support.</p>
+          <button id="button1" style="margin-top: 6px" class="ripple">View Project</button>
+        </div>
+      </div>
+    </div>
+    </article>
+
+<hr style="margin-top: 300px">
+
+    <div class="footer">
+      &copy; 2025 Yamen Hermassi. All rights reserved.
+    </div>
+  </div>
+</div>
+
+<div class="snackbar" id="snackbar" popover>
+  <span>Redirecting...</span>
+</div>
+
+<div id="blur" class="overlay blur"></div>
+<dialog id="dialog" class="modal top" popover>
+  <h5 class="wavy">MyLinks</h5>
+  <div>
+    <p>Check out these useful links:</p>
+    <div>
+      <button class="ripple" onclick="window.open('https://t.me/heyyamen', '_blank')"><i class="fa-brands fa-telegram"></i>Telegram</button>
+      <button class="ripple" onclick="window.open('https://github.com/yamenher', '_blank')"><i class="fa-brands fa-github"></i>GitHub</button>
+      <button style="margin-top: 15px" class="border ripple" onclick="window.open('https://discordapp.com/users/1093275547397800027', '_blank')"><i style="padding: 2px;" class="fa-brands fa-discord"></i>Discord</button>
+      <button style="margin-top: 15px" class="border ripple" onclick="window.open('https://www.instagram.com/hermassi_yamen', '_blank')"><i class="fa-brands fa-instagram"></i>Instagram</button>
+    </div>
+  </div>
+</dialog>
+
+</body>
+</html><style>:root,
+ body.dark { 
+  --primary: rgb(162 211 153);
+  --surface-tint: rgb(162 211 153);
+  --on-primary: rgb(12 57 14);
+  --primary-container: rgb(37 80 35);
+  --on-primary-container: rgb(189 240 179);
+  --secondary: rgb(186 204 179);
+  --on-secondary: rgb(37 52 35);
+  --secondary-container: rgb(59 75 56);
+  --on-secondary-container: rgb(214 232 206);
+  --tertiary: rgb(160 207 212);
+  --on-tertiary: rgb(0 54 59);
+  --tertiary-container: rgb(30 77 82);
+  --on-tertiary-container: rgb(188 235 240);
+  --error: rgb(255 180 171);
+  --on-error: rgb(105 0 5);
+  --error-container: rgb(147 0 10);
+  --on-error-container: rgb(255 218 214);
+  --background: rgb(16 20 15);
+  --on-background: rgb(224 228 218);
+  --surface: rgb(16 20 15);
+  --on-surface: rgb(224 228 218);
+  --surface-variant: rgb(66 73 64);
+  --on-surface-variant: rgb(194 200 189);
+  --outline: rgb(140 147 136);
+  --outline-variant: rgb(66 73 64);
+  --shadow: rgb(0 0 0);
+  --scrim: rgb(0 0 0);
+  --inverse-surface: rgb(224 228 218);
+  --inverse-on-surface: rgb(45 50 43);
+  --inverse-primary: rgb(60 104 57);
+  --primary-fixed: rgb(189 240 179);
+  --on-primary-fixed: rgb(0 34 3);
+  --primary-fixed-dim: rgb(162 211 153);
+  --on-primary-fixed-variant: rgb(37 80 35);
+  --secondary-fixed: rgb(214 232 206);
+  --on-secondary-fixed: rgb(17 31 15);
+  --secondary-fixed-dim: rgb(186 204 179);
+  --on-secondary-fixed-variant: rgb(59 75 56);
+  --tertiary-fixed: rgb(188 235 240);
+  --on-tertiary-fixed: rgb(0 32 34);
+  --tertiary-fixed-dim: rgb(160 207 212);
+  --on-tertiary-fixed-variant: rgb(30 77 82);
+  --surface-dim: rgb(16 20 15);
+  --surface-bright: rgb(54 58 52);
+  --surface-container-lowest: rgb(11 15 10);
+  --surface-container-low: rgb(25 29 23);
+  --surface-container: rgb(29 33 27);
+  --surface-container-high: rgb(39 43 37);
+  --surface-container-highest: rgb(50 54 48);
+   
+}
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--surface);
+      color: var(--on-surface);
+      margin: 0;
+      padding-top: 30px;
+    }
+    
+    header, .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 10; 
+}
+
+    .container {
+      max-width: 960px;
+      margin: 24px auto;
+      padding: 24px;
+    }
+
+    .profile-picture {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: block;
+      margin-bottom: 16px;
+      border: 3px solid var(--md-sys-color-primary);
+      box-shadow: 0px 0px 12px rgba(76, 175, 80, 0.5);
+    }
+    
+     .profile-picture-small {
+      width: 40pxpx;
+      height: 40px;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 0.9rem;
+      color: var(--md-sys-color-outline);
+      margin-top: 40px;
+    }
+    
+    .centered-layout {
+  display: grid;
+  justify-content: center;      /* Horizontally centers text */
+  align-items: center;  /* Vertically centers text in inline-block elements */
+  height: 100vh;   /* Make the div inline-block if necessary */
+}
+
+  h3.wavy {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(162 211 153);
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+
+}
+
+h5.wavy {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(162 211 153);
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+
+}
+  
+  @font-face {
+  font-family: 'ProductSansFont';
+  src: url('fonts/product_sans_regular.ttf') format('truetype');
+}
+
+* {
+  font-family: 'ProductSansFont', sans-serif;
+  }</style><script>const navbar = document.querySelector('.navbar');
+const navHeight = navbar.offsetHeight;
+let ticking = false;
+let totalHeight = 140;
+let scrollPercentage = 0;
+const dialog = document.getElementById("dialog");
+let lastScrollTime = 0;
+const scrollDelay = 1;
+
+window.addEventListener('scroll', function() {
+    const now = Date.now();
+    if (now - lastScrollTime >= scrollDelay) {
+        scrollOffset = window.scrollY;
+        scrollPercentage = (scrollOffset / totalHeight);
+
+        if (scrollPercentage <= 1) {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    document.getElementById("small-pic").style.width = 40 * scrollPercentage + "px";
+                    document.getElementById("small-pic").style.height = 40 * scrollPercentage + "px";
+                });
+            }
+        }
+        lastScrollTime = now;
+    }
+});
+
+document.getElementById('button1').addEventListener('click', function() {
+    delayedExecution();
+});
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function delayedExecution() {
+    document.querySelector('#snackbar').showPopover();
+    await delay(1500);
+    window.location.href = 'https://github.com/yamenher/x-signer';
+    await delay(1000);
+    document.querySelector('#snackbar').hidePopover();
+}
+
+async function hidePlaceholder() {
+    await delay(1550);
+    document.getElementById("placeholder").classList.remove("active");
+    document.getElementById("main-content").classList.add("active");
+}
+
+hidePlaceholder();
+document.getElementById("small-pic").style.width = "0px";
+document.getElementById("small-pic").style.height = "0px";
+
+document.getElementById('menu').addEventListener('click', function() {
+    dialog.showPopover();
+    document.getElementById("blur").classList.add("active");
+    document.body.style.overflow = 'hidden'; 
+    window.addEventListener('click', (e) => {
+    if (e.target == document.getElementById("blur")) {
+      dialog.close();
+      document.getElementById("blur").classList.remove("active");
+      document.body.style.overflow = ''; 
+    }
+  });
+});
+</script>
